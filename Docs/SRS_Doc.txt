@@ -1,0 +1,91 @@
+Software Requirements Specification (SRS) Document for E-commerce Clothing Website
+
+1. Introduction:
+
+The purpose of this document is to outline the software requirements for an E-commerce Clothing Website 
+that will provide a platform for users to browse and purchase clothing products online. 
+The system will be developed using Java for backend development, ReactJS for frontend development, Spring Boot 
+as the application framework, MySQL for database management, and the Razorpay payment gateway for processing transactions.
+
+2. Scope:
+
+The E-commerce Clothing Website aims to provide a user-friendly interface for customers to view, select, and purchase clothing items.
+ It will include features such as browsing products, adding items to the cart, processing payments, managing user accounts,
+ and order tracking.
+
+3. Functional Requirements:
+
+- **User Registration and Authentication:**
+  - Users can create accounts, providing necessary information.
+  - Users can log in using their credentials.
+  - Password recovery/reset functionality.
+
+- **Product Browsing and Searching:**
+  - Users can browse products by categories, sizes, and brands.
+  - Search functionality with filters to help users find products quickly.
+
+- **Product Details:**
+  - Detailed product pages with images, descriptions, prices, and available sizes.
+  - Product reviews and ratings.
+
+- **Shopping Cart:**
+  - Users can add/remove items to/from their shopping cart.
+  - Cart displays item details, quantities, and total cost.
+  - Users can update quantities and view the subtotal.
+
+- **Checkout and Payment:**
+  - Users can proceed to checkout from the cart.
+  - Integration with Razorpay payment gateway for secure payment processing.
+  - Order summary and payment confirmation.
+
+- **User Profiles:**
+  - Users can manage their profiles, including personal information and addresses.
+  - Order history and tracking.
+
+- **Admin Panel:**
+  - Admins can manage product listings, categories, and inventory.
+  - Order management and tracking.
+  - User account management.
+
+4. Non-Functional Requirements:
+
+- **Performance:**
+  - System should handle a large number of concurrent users.
+  - Quick loading times for product pages and checkout process.
+
+- **Security:**
+  - User data and passwords must be securely stored and encrypted.
+  - Payment processing should be done through the secure Razorpay gateway.
+
+- **Usability:**
+  - Intuitive and responsive user interface design using ReactJS.
+  - Mobile-friendly design for seamless user experience on various devices.
+
+- **Scalability:**
+  - Architecture should support easy scaling to accommodate growing user base.
+
+- **Reliability:**
+  - System should handle errors gracefully, providing informative error messages to users.
+
+5. Technology Stack:
+
+- Backend: Java, Spring Boot
+- Frontend: ReactJS
+- Database: MySQL
+- Payment Gateway: Razorpay
+
+6. Constraints:
+
+- Development must adhere to the specified technologies and frameworks.
+- Integration with the Razorpay payment gateway is required for processing payments.
+
+7. Assumptions:
+
+- It's assumed that the development team has expertise in the specified technologies.
+- Users have basic internet connectivity and modern web browsers.
+
+8. Conclusion:
+This Software Requirements Specification outlines the key features and functionalities of the E-commerce Clothing Website. 
+It provides a clear understanding of what the system aims to achieve and the technologies it will employ.
+The successful implementation of this project will result in a fully functional and user-friendly online platform for purchasing
+clothing items.
